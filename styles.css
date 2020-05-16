@@ -208,7 +208,7 @@ margin-top: 10px;
 
 }
 
-@media(max-width: 900px){
+@media (min-width: 576px){
   #blogs{
     font-size: 2.5rem;
   }
