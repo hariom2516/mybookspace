@@ -3,13 +3,23 @@ title {
   font-family: 'ubuntu';
   margin-left: auto;
 }
+header {
+    height:180vh;
+    min-height:400px;
+    background-size:cover;
+    background-image:url('images/headmbs.jpg');
+}
+
+.hidden-spacer {
+    height: 56px
+}
 
 body {
   color: #000;
   background-color: #fff;
   font-family: 'Montserrat', sans-serif;
 }
-hr{
+.line{
   border:none;
   margin: 60px auto 60px auto;
   border-top-style: dotted;
@@ -47,9 +57,10 @@ h1 {
 }
 
 .navbar-brand {
+width:1000px;
   font-family: 'Ubuntu';
   padding-right: 100px;
-padding-left: 30px;
+/* padding-left: 30px; */
   color: #000;
 }
 
@@ -117,12 +128,19 @@ padding-left: 30px;
  .about-para{
    padding: 10px 120px;
  }
-#blogs{
+.blog{
   color: #45454d;
+  width:50%;
+  margin: 0 auto;
+  padding-top:40px ;
+  padding-bottom: 30px;
+  line-height: 2;
+  text-align: justify;
+  background-color: #fffafa;
 
 }
 
-.blog1{
+/* .blog{
   width:100%;
   margin: 0 auto;
   padding-top:40px ;
@@ -131,7 +149,7 @@ padding-left: 30px;
   background-color: #fffafa;
   text-align: justify;
 
-}
+} */
 .quote-header{
   font-size: 0.8rem;
   /* margin-left: 69px; */
@@ -142,57 +160,7 @@ padding-left: 30px;
   font-size: 1.5rem;
   text-align:center;
 }
-.blog2{
-  width:100%;
-  margin: 0 auto;
-  padding-top:40px ;
-  padding-bottom: 30px;
-  line-height: 2;
-  text-align: justify;
-  background-color: #fffafa;
-}
-.blog3{
-  width:100%;
-  margin: 0 auto;
-  padding-top:40px ;
-  padding-bottom: 30px;
-  line-height: 2;
-  text-align: justify;
-  background-color: #fffafa;
-}
-.blog4{
 
-    width:100%;
-    margin: 0 auto;
-    padding-top:40px ;
-    padding-bottom: 30px;
-    line-height: 2;
-    text-align: justify;
-    background-color: #fffafa;
-
-}
-.blog5{
-
-    width:100%;
-    margin: 0 auto;
-    padding-top:40px ;
-    padding-bottom: 30px;
-    line-height: 2;
-    text-align: justify;
-    background-color: #fffafa;
-
-}
-.blog6{
-
-    width:100%;
-    margin: 0 auto;
-    padding-top:40px ;
-    padding-bottom: 30px;
-    line-height: 2;
-    text-align: justify;
-    background-color: #fffafa;
-
-}
 #footer{
   padding: 30px 30px 50px 30px;
   background-color: #fffafa;
@@ -208,10 +176,20 @@ margin-top: 10px;
 
 }
 
-@media (min-width: 576px){
-  #blogs{
-    font-size: 2.5rem;
+@media(min-height: 900px){
+  .blog{
+    color: #45454d;
+    width:100%;
+    margin: 0 auto;
+    padding-top:40px ;
+    padding-bottom: 30px;
+    line-height: 2;
+    text-align: justify;
+    background-color: #fffafa;
+    font-size: 2rem;
+
   }
+/*
   .blog1{
     width:100%;
     text-align: justify;
@@ -219,63 +197,17 @@ margin-top: 10px;
     padding-top:40px ;
     padding-bottom: 50px;
     line-height: 2;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 
     background-color: #fffafa;
-  }
-  .blog2{
-    width:100%;
-    text-align: justify;
-    margin: 0 auto;
-    padding-top:40px ;
-    padding-bottom: 50px;
-    line-height: 2;
-    font-size: 2.5rem;
-    background-color: #fffafa;
-  }
-  .blog3{
-    width:100%;
-    text-align: justify;
-    margin: 0 auto;
-    padding-top:40px ;
-    font-size: 2.5rem;
-    padding-bottom: 50px;
-    line-height: 2;
-    background-color: #fffafa;
-  }
-  .blog4{
-    width:100%;
-    text-align: justify;
-    margin: 0 auto;
-    padding-top:40px ;
-    padding-bottom: 50px;
-    line-height: 2;
-    font-size: 2.5rem;
-    background-color: #fffafa;
-  }
-  .blog5{
-    width:100%;
-    text-align: justify;
-    margin: 0 auto;
-    padding-top:40px ;
-    padding-bottom: 50px;
-    line-height: 2;
-    font-size: 2.5rem;
-    background-color: #fffafa;
-  }
-  .blog6{
-    width:100%;
-    text-align: justify;
-    margin: 0 auto;
-    padding-top:40px ;
-    padding-bottom: 50px;
-    line-height: 2;
-    font-size: 2.5rem;
-    background-color: #fffafa;
-  }
+  } */
+
   p{
     padding: 10px 30px;
   }
+h3{
+font-size: 1.2rem;
+}
   .quote{
 
   font-size:1.5rem;
